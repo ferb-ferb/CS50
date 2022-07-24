@@ -5,17 +5,22 @@ void build(int height);
 
 int main(void)
 {
+    int height;
     do
     {
-    int height = get_int("Height: ");
+    height = get_int("Height: ");
     }
     while(height<1);
-
+    build(height);
 }
 
 void build(int height)
 {
-for(int i=0; i<height;i++){
-    printf("#  #");
+for(int i=height; i>1;i--){
+    printf(" ");
+}
+printf("#  ");
+for(int i=0;i<height;i++){
+    printf("#");
 }
 }
