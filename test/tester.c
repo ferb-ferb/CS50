@@ -1,0 +1,7 @@
+#include <math.h>
+#include <stdio.h>
+#include <cs50.h>
+
+int main(void){
+    printf("%f" , 23%1);
+}
