@@ -20,9 +20,12 @@ void build(int height)
         for(int i=0;i<height-1-row;i++){
             printf(" ");
         }
-        for(int hash=0; hash<height; hash++){
-
+        for(int hash=0; hash<row+1; hash++){
+            printf("#");
         }
-
-    }
+printf("  ");
+for(int hash=0; hash<row+1; hash++){
+            printf("#");
+        }
+    printf("\n");}
 }
