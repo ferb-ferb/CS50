@@ -16,10 +16,11 @@ int main(void)
 
 void build(int height)
 {
-for(int j=0;j<height;j++;){}
-{for(int i=height; i>1;i--){
-    printf(" ");
+    for(){
+
+        for(){
+            
+        }
+
+    }
 }
-printf("#  #\n");
-height--;
-}}
