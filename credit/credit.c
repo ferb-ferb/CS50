@@ -25,5 +25,10 @@ while(mine>0){
     sum+=mine%10;
     mine/=100;
 }
-printf("%i\n" , sum);
+if(sum%10==0){
+
+}
+else {
+    printf("INVALID");
+}
 }
