@@ -7,7 +7,7 @@ int main(void)
 long card = get_long("Number: ");
 long mine = card;
 int temp;
-int digits;
+int digits =0;
 int sum = 0;
 while(mine>0){
     mine /= 10;
@@ -26,8 +26,11 @@ while(mine>0){
     sum+=mine%10;
     mine/=100;
 }
+mine = card;
 if(sum%10==0){
-
+while(mine>0;){
+    count++;
+}
 }
 else {
     printf("INVALID");
