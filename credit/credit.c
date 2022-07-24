@@ -7,7 +7,17 @@ int main(void)
 long card = get_long("Number: ");
 long mine = card;
 int temp;
-int sum;
-
-
+int sum = 0;
+while(mine>0){
+    mine /= 10;
+    temp = mine%10;
+    if(temp>=10){
+        sum+=temp%10;
+        temp/=10;
+        sum+=temp;
+    }
+    sum += temp;
+    mine /= 10;
+}
+printf("%i" , sum);
 }
