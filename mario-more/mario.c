@@ -19,7 +19,7 @@ void build(int height)
     for(int i=0;i<height;i++){
 
         for(int j=0; j<height-i;j++){
-            
+            printf();
         }
 
     }
