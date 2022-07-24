@@ -7,6 +7,7 @@ int main(void)
 long card = get_long("Number: ");
 long mine = card;
 int temp;
+int digits;
 int sum = 0;
 while(mine>0){
     mine /= 10;
