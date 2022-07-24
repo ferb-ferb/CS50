@@ -15,5 +15,7 @@ int main(void)
 
 void build(int height)
 {
-for(){}
+for(int i=0; i<height;i++){
+    printf("#  #");
+}
 }
