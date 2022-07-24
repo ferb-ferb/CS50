@@ -11,6 +11,8 @@ int sum = 0;
 while(mine>0){
     mine /= 10;
     temp = mine%10;
+    temp *= 2;
+    printf("%i\n" , temp);
     if(temp>=10){
         sum+=temp%10;
         temp/=10;
