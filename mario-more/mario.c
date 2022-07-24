@@ -1,19 +1,19 @@
 #include <cs50.h>
 #include <stdio.h>
 
-void build(int width);
+void build(int height);
 
 int main(void)
 {
     do
     {
-    int width = get_int("Width: ");
+    int height = get_int("Height: ");
     }
-    while(width<1);
+    while(height<1);
 
 }
 
-void build(int width)
+void build(int height)
 {
 for(){}
 }
