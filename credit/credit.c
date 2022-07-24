@@ -28,11 +28,13 @@ while(mine>0){
 }
 mine = card;
 if(sum%10==0){
-while(mine>0;){
-    count++;
+while(mine>0){
+    digits++;
+    mine/=10;
 }
 }
 else {
     printf("INVALID");
 }
+printf("%i\n" , digits);
 }
