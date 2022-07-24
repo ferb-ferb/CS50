@@ -19,5 +19,5 @@ while(mine>0){
     sum += temp;
     mine /= 10;
 }
-printf("%i" , sum);
+printf("%i\n" , sum);
 }
