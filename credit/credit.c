@@ -36,5 +36,7 @@ while(mine>0){
 else {
     printf("INVALID");
 }
-printf("%i\n" , digits);
+if(digits==13 || digits == 15 || digits == 16){
+    if(){}
+}
 }
