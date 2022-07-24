@@ -38,10 +38,10 @@ else {
 }
 mine = card;
 if(digits==13 || digits == 15 || digits == 16){
-    if(digits == 15 && mine/10000000000000 == 34 || mine/10000000000000 == 37){
+    if(digits == 15 && (mine/10000000000000 == 34 || mine/10000000000000 == 37)){
         printf("AMEX");
     }
-    else if(digits == 13 && mine/) {
+    else if(digits == 13 ) {
 
     }
 }
