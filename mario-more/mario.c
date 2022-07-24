@@ -17,7 +17,7 @@ int main(void)
 void build(int height)
 {
     for(int row=0;row<height;row++){
-        for(int i=0;i<height-1-row;i++){
+        for (int i=0;i<height-1-row;i++){
             printf(" ");
         }
         for(int hash=0; hash<row+1; hash++){
