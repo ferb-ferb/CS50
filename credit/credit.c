@@ -34,12 +34,12 @@ while(mine>0){
 }
 }
 else {
-    printf("INVALID");
+    printf("INVALID\n");
 }
 mine = card;
 if(digits==13 || digits == 15 || digits == 16){
     if(digits == 15 && (mine/10000000000000 == 34 || mine/10000000000000 == 37)){
-        printf("AMEX");
+        printf("AMEX\n");
     }
     else if(digits == 13 ) {
 
