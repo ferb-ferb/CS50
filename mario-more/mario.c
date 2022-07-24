@@ -16,9 +16,9 @@ int main(void)
 
 void build(int height)
 {
-    for(int i=0;i<height;i++){
+    for(int row=0;row<height;row++){
 
-        for(int j=0; j<((height-1)-i);j++){
+        for(int col=0; col<((height-1)-i);col++){
             printf(" ");
         }
 
