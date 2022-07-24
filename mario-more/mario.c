@@ -16,9 +16,9 @@ int main(void)
 
 void build(int height)
 {
-    for(){
+    for(int i=0;i<height;i++){
 
-        for(){
+        for(int j=0; j<height-i;j++){
             
         }
 
