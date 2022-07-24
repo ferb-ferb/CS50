@@ -41,8 +41,15 @@ if(digits==13 || digits == 15 || digits == 16){
     if(digits == 15 && (mine/10000000000000 == 34 || mine/10000000000000 == 37)){
         printf("AMEX\n");
     }
-    else if(digits == 13 ) {
-
+    else if(mine/1000000000000 == 4 || mine/1000000000000000 == 4) {
+        printf("VISA\n");
     }
+    else if(mine/100000000000000>50 &&  mine/100000000000000<56){
+        printf("MASTERCARD\n");
+    }
+    else{printf("INVALID\n");}
+}
+else{
+    printf("INVALID\n");
 }
 }
