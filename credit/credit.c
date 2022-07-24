@@ -12,14 +12,13 @@ while(mine>0){
     mine /= 10;
     temp = mine%10;
     temp *= 2;
-    printf("%i\n" , temp);
     if(temp>=10){
         sum+=temp%10;
         temp/=10;
         sum+=temp;
     }
-    sum += temp;
+   else{ sum += temp;}
     mine /= 10;
 }
-printf("%i\n" , sum);
+
 }
