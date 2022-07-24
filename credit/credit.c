@@ -36,7 +36,8 @@ while(mine>0){
 else {
     printf("INVALID");
 }
+mine = card;
 if(digits==13 || digits == 15 || digits == 16){
-    if(){}
+    if(digits == 15 && mine/140){}
 }
 }
