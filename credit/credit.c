@@ -20,10 +20,10 @@ while(mine>0){
    else{ sum += temp;}
     mine /= 10;
 }
-long mine = card;
+ mine = card;
 while(mine>0){
     sum+=mine%10;
     mine/=100;
 }
-printf
+printf("%i\n" , sum);
 }
