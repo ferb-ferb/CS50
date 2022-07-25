@@ -8,24 +8,29 @@ int main(void)
     int height;
     do
     {
-    height = get_int("Height: ");
+        height = get_int("Height: ");
     }
-    while(height<1 || height>8);
+    while (height < 1 || height > 8);
     build(height);
 }
 
 void build(int height)
 {
-    for(int row=0;row<height;row++){
-        for (int i=0;i<height-1-row;i++){
+    for (int row = 0; row < height; row++)
+    {
+        for (int i = 0; i < height - 1 - row; i++)
+        {
             printf(" ");
         }
-        for(int hash=0; hash<row+1; hash++){
+        for (int hash = 0; hash < row + 1; hash++)
+        {
             printf("#");
         }
-printf("  ");
-for(int hash=0; hash<row+1; hash++){
+        printf("  ");
+        for (int hash = 0; hash < row + 1; hash++)
+        {
             printf("#");
         }
-    printf("\n");}
+        printf("\n");
+    }
 }
