@@ -3,5 +3,10 @@
 #include <cs50.h>
 
 int main(void){
-    printf("%f" , 23%1);
+    string name = "ferb";
+    for(int i = 0; i < 10 ; i++)
+    {
+        printf("Hello %s " , name);
+    }
+    printf("\n");
 }
