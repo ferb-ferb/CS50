@@ -3,5 +3,6 @@
 #include <cs50.h>
 
 int main(void){
-    printf("Hello");
+    string c = get_string("What is your name: ");
+    printf("Hello %s" , c);
 }
