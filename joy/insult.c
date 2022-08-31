@@ -3,6 +3,6 @@
 
 int main(void){
 
-
+printf("joy is stupid\n");
 
 }
