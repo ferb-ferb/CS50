@@ -1,5 +1,5 @@
 #include <cs50.h>
-
+#include <stdio.h>
 int main(void){
-    print("natalie");
+    printf("natalie\n");
 }
