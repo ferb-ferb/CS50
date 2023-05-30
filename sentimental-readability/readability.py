@@ -10,13 +10,12 @@ def main():
         if c.isalpha():
             letters += 1
         elif c == " ":
-            spaces += 1
+            words += 1
         elif c in ["." , "?", "!"]:
             periods += 1
     L = letters/words * 100
     S = periods/words * 100
     cl = 0.0588 * L - 0.296 * S - 15.8
-    round(cl, 0)
-    print(f"{cl}")
+    print(f"Grade: {round(cl, 0)}")
 
 main()
