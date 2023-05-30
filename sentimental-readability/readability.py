@@ -4,7 +4,7 @@ from cs50 import get_string
 def main():
     text = get_string("Text: ")
     letters = 0
-    spaces = 0
+    words = 1
     periods = 0
     for c in text:
         if c.isalpha():
@@ -13,5 +13,6 @@ def main():
             spaces += 1
         elif c in ["." , "?", "!"]:
             periods += 1
-    
+    L = letters/words * 100
+    S =
 main()
