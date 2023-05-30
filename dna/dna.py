@@ -7,8 +7,8 @@ def main():
     # TODO: Check for command-line usage
     if len(sys.argv) == 2:
     # TODO: Read database file into a variable
-        
-        reader = DictReader()
+        with open(sys.argv[1], "r") as f:
+            reader = csv.DictReader(f)
     # TODO: Read DNA sequence file into a variable
 
     # TODO: Find longest match of each STR in DNA sequence
