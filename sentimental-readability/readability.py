@@ -11,7 +11,7 @@ def main():
             letters += 1
         elif c == " ":
             spaces += 1
-        elif c == ".":
+        elif c in ["." , "?", "!"]:
             periods += 1
     
 main()
