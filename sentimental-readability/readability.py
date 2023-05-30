@@ -4,7 +4,7 @@ from cs50 import get_string
 def main():
     text = get_string("Text: ")
     for c in text:
-        
+        if c 
 
 
 main()
