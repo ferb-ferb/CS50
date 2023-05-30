@@ -19,7 +19,7 @@ def main():
     cl = int(round(cl, 0))
     if cl>0 and cl<17:
         print(f"Grade: {cl}")
-    elif c>16:
+    elif cl>16:
         print("Grade 16+")
     else:
         print("Before Grade 1")
