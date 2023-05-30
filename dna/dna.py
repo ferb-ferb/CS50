@@ -16,7 +16,8 @@ def main():
     with open(sys.argv[2], "r") as f:
         seq = f.read()
     # TODO: Find longest match of each STR in DNA sequence
-    print(f"{ in seq}")
+    counts = []
+    
     # TODO: Check database for matching profiles
 
     return
