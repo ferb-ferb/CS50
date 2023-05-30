@@ -14,5 +14,6 @@ def main():
         elif c in ["." , "?", "!"]:
             periods += 1
     L = letters/words * 100
-    S =
+    S = periods/words * 100
+    cl = 0.0588 * L - 0.296 * S - 15.8
 main()
