@@ -16,6 +16,12 @@ def main():
     L = letters/words * 100
     S = periods/words * 100
     cl = 0.0588 * L - 0.296 * S - 15.8
-    print(f"Grade: {int(round(cl, 0))}")
+    cl = int(round(cl, 0))
+    if cl>0 and cl<17:
+        print(f"Grade: {cl}")
+    elif c>16:
+        print("Grade 16+")
+    else:
+        print("Before Grade 1")
 
 main()
