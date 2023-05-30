@@ -14,8 +14,7 @@ def main():
         dnas = [pers for pers in reader]
     # TODO: Read DNA sequence file into a variable
     with open(sys.argv[2], "r") as f:
-        reader = csv.DictReader(f)
-        seq = reader
+        seq = f.read()
     # TODO: Find longest match of each STR in DNA sequence
     print(f"{ in seq}")
     # TODO: Check database for matching profiles
