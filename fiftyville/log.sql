@@ -8,3 +8,4 @@ SELECT activity,license_plate,minute FROM bakery_security_logs WHERE day = 28 AN
 6;
 --FIND
 SELECT account_number, amount FROM atm_transactions WHERE day = 28 AND year = 2021 AND month = 7 AND atm_location LIKE 'Leggett%' AND transaction_type = 'withdraw';
+SELECT caller,receiver, duration FROM phone_calls WHERE day = 28 AND year = 2021 AND month = 7 AND duration <60 ;
