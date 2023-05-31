@@ -1,2 +1,2 @@
 1. I would caracterize their audio aura as upbeat fast paced, danceable rap music
-2. This might be wrong because I simply averaged the 
+2. This might be wrong because I simply averaged the characteristics and assumed that they were high when really I dont now what normal high or low values are.  A better way would have been to compare this to other data. 
