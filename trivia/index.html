@@ -21,7 +21,14 @@
         });
         let but = document.querySelector('#submitbut');
         but.addEventListener('click',function(){
-            if(document.querySelector('field1')){}
+            if(document.querySelector('field1').value == 'Trygg'){
+                document.querySelector('field1').style.backgroundColor = 'green';
+                document.querySelector('#fed').innerHTML = 'Correct!'
+            }
+            else{
+                document.querySelector('field1').style.backgroundColor = 'red';
+                document.querySelector('#fed').innerHTML = 'Incorrect!'
+            }
         })
     });
         </script>
