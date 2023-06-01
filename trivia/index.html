@@ -10,6 +10,7 @@
            let red = document.querySelector('#red');
           document.querySelector('#red').addEventListener('click', function(){
                 red.style.backgroundColor = 'red';
+                document.querySelector('#feedback').innerHTML = 'Incorrect';
             });});
         </script>
     </head>
@@ -26,6 +27,7 @@
                 <button id="red">Red</button>
                 <button id="black">Black</button>
                 <button id ="yellow">Yellow</button>
+                <p id = "feedback"></p>
 
             </div>
 
