@@ -6,12 +6,20 @@
         <link href="styles.css" rel="stylesheet">
         <title>Trivia!</title>
         <script>
-           document.addEventListener('DOMContentLoaded', function(){
-           let incorrects = document.querySelectorAll('.incorrect');
-          incorrects.addEventListener('click', function(){
-                incorrects.style.backgroundColor = 'red';
-                document.querySelector('#feedback').innerHTML = 'Incorrect';
-            });});
+        document.addEventListener('DOMContentLoaded', function(){
+            let incorrects = document.querySelectorAll('.incorrect');
+            for(let i = 0; i<incorrects.length; i++){
+                incorrects[i].addEventListener('click',function(){
+                    incorrects[i].style.backgroundColor = 'red';
+                    document.querySelector('#feedback').innerHTML = 'Incorrect';
+                });
+            }
+        let correct = document.querySelector('.correct');
+        correct.addEventListener('click',function(){
+            correct.style.backgroundColor = 'green';
+            document.querySelector('#feedback').innerHTML = 'Correct!';
+        });
+        });
         </script>
     </head>
     <body>
