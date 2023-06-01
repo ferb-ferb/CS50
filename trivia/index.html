@@ -19,7 +19,10 @@
             correct.style.backgroundColor = 'green';
             document.querySelector('#feedback').innerHTML = 'Correct!';
         });
-        
+        let but = document.querySelector('#submitbut');
+        but.addEventListener('click',function(){
+            if(document.querySelector('field1')){}
+        })
     });
         </script>
     </head>
@@ -46,6 +49,7 @@
                 <h3>What is the name of my biggest opposition?</h3>
                 <input id = "field1" type="text" placeholder = "name"></input>
                 <button id = "submitbut">Check Answer</button>
+                <p id = "fed"></p>
             </div>
         </div>
     </body>
