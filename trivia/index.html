@@ -7,9 +7,9 @@
         <title>Trivia!</title>
         <script>
            document.addEventListener('DOMContentLoaded', function(){
-           let red = document.querySelector('#red');
-          document.querySelector('#red').addEventListener('click', function(){
-                red.style.backgroundColor = 'red';
+           let incorrects = document.querySelector('.incorrect');
+          incorrects.addEventListener('click', function(){
+                incorrects.style.backgroundColor = 'red';
                 document.querySelector('#feedback').innerHTML = 'Incorrect';
             });});
         </script>
@@ -24,9 +24,9 @@
                 <h2>Part 1: Multiple Choice </h2>
                 <hr>
                 <h3>What is my favorite color?</h3>
-                <button id="red">Red</button>
-                <button id="black">Black</button>
-                <button id ="yellow">Yellow</button>
+                <button class = "incorrect" id="red">Red</button>
+                <button class = "correct" id="black">Black</button>
+                <button class = "incorrect" id ="yellow">Yellow</button>
                 <p id = "feedback"></p>
 
             </div>
