@@ -6,7 +6,9 @@
         <link href="styles.css" rel="stylesheet">
         <title>Trivia!</title>
         <script>
-            // TODO: Add code to check answers to questions
+            document.querySelector('#red').addEventListener('click', function(){
+                this.style.backgroundColor = 'red';
+            });
         </script>
     </head>
     <body>
@@ -22,7 +24,7 @@
                 <button id="red">Red</button>
                 <button id="black">Black</button>
                 <button id ="yellow">Yellow</button>
-                
+
             </div>
 
             <div class="section">
