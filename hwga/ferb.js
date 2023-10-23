@@ -2,8 +2,8 @@ var number1 = 0;
 var number2 = 0;
 function texter(event){
     var trigger = event.srcElement;
-    text = trigger.innerHTML;
+    number1 = trigger.innerHTML;
 }
-function print(){
+function add(){
     alert(text);
 }
