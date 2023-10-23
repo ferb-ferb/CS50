@@ -1,7 +1,7 @@
 var text= "";
 function texter(event){
- text = event.innerHTML;
- alert(text);
+    var trigger = event.srcElement;
+    text = trigger.innerHTML;
 }
 function print(){
     alert(text);
