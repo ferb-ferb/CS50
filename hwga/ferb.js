@@ -9,5 +9,6 @@ function plus(){
     number1 = pointer;
 }
 function add(){
-    alert(number1+pointer);
+    let z = number1 + pointer;
+    alert(z);
 }
