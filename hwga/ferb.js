@@ -19,6 +19,7 @@ function add(){
 function update(event){
     var trig = event.srcElement
     pointer = trig.innerHTML;
-    if(disp.len){disp = disp + pointer;}
+    if(disp.length>=1){disp = disp + pointer;}
+    else{disp=pointer;}
     document.getElementById("display").value = disp;
 }
