@@ -18,5 +18,5 @@ function add(){
 }
 function update(event){
     var trig = event.srcElement
-    
+    disp = 
 }
