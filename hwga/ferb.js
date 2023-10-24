@@ -8,9 +8,10 @@ function texter(event){
 }
 function plus(){
     number1 = parseInt(disp);
+    disp = 0;
 }
 function add(){
-    let z = number1 + parseInt(pointer);
+    let z = number1 + parseInt(disp);
     document.getElementById("display").value = z;
   //  alert(z);
     number1 = 0;
