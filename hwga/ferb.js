@@ -1,6 +1,6 @@
 var pointer = 0;
 var number1 = 0;
-var disp = 0;
+var disp;
 var number2 = 0;
 function texter(event){
     var trigger = event.srcElement;
@@ -19,6 +19,6 @@ function add(){
 function update(event){
     var trig = event.srcElement
     pointer = trig.innerHTML;
-    disp = disp + pointer;
+    if(disp.len){disp = disp + pointer;}
     document.getElementById("display").value = disp;
 }
