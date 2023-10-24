@@ -7,7 +7,7 @@ function texter(event){
     pointer = trigger.innerHTML;
 }
 function plus(){
-    number1 = parseInt(pointer);
+    number1 = parseInt(disp);
 }
 function add(){
     let z = number1 + parseInt(pointer);
