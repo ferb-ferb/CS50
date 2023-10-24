@@ -10,7 +10,7 @@ function plus(){
 }
 function add(){
     let z = number1 + parseInt(pointer);
-    (z);
+    document.getElementById("display").value = ("z");
     number1 = 0;
     pointer =0;
 }
