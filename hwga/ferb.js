@@ -17,7 +17,8 @@ function add(){
     pointer =0;
 }
 function update(event){
-    
     var trig = event.srcElement
+    pointer = trig.innerHTML;
     disp = disp + pointer;
+    document.getElementById("display").value = disp;
 }
