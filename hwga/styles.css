@@ -1,5 +1,5 @@
-#display
+input
 {
-border: 4px dotted blue;
-text-align: center;
+    border: 4px dotted blue;
+text-align: right;
 }
