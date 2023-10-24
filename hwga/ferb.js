@@ -11,6 +11,7 @@ function plus(){
 function add(){
     let z = number1 + parseInt(pointer);
     document.getElementById("display").value = z;
+  //  alert(z);
     number1 = 0;
     pointer =0;
 }
