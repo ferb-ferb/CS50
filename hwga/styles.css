@@ -19,11 +19,15 @@ input{
 }
 button
 {
-
+border: none;
+font-size: 3rem;
 }
 .keys
 {
     display: grid;
     grid-template-columns: repeat(4, 1fr);
 
+}
+.en{
+    
 }
