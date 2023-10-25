@@ -22,5 +22,5 @@ function update(event){
     pointer = trig.innerHTML;
     if(disp != "0"){disp = disp + pointer;}
     else{disp=pointer;}
-    document.getElementById("display").value = disp;
+    document.getElementById("ope").innerHTML = disp;
 }
