@@ -25,10 +25,13 @@ font-size: 3rem;
 .keys
 {
     display: grid;
-    grid-template-columns: repeat(4, 1fr);
+    grid-template-columns: repeat(3, 1fr);
 
 }
 .en{
-    grid-column: 4/5;
+    grid-column: 3/4;
     grid-row: 2 / span 4;
+}
+.pl{
+    grid-column: 3/4;
 }
