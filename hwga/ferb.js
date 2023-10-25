@@ -12,7 +12,7 @@ function plus(){
 }
 function add(){
     let z = number1 + parseInt(disp);
-    document.getElementById("display").value = z;
+    document.getElementById("ope").innerHTML = z;
   //  alert(z);
     number1 = 0;
     pointer =0;
