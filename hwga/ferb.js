@@ -27,5 +27,5 @@ function update(event){
 }
 function ac(){
     disp = 0 ;
-    document.g("");
+    document.getElementById("ope").innerHTML = disp;
 }
