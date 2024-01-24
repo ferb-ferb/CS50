@@ -25,3 +25,7 @@ function update(event){
     else{disp=pointer;}
     document.getElementById("ope").innerHTML = disp;
 }
+function ac(){
+    disp = 0 ;
+    document.g("");
+}
