@@ -9,6 +9,7 @@ function texter(event){
 function plus(){
     number1 = parseInt(disp);
     disp = 0;
+    document.getElementById("ope").innerHTML = disp;
 }
 function add(){
     let z = number1 + parseInt(disp);
