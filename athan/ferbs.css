@@ -1,22 +1,10 @@
-/*
 body{
-    background-color: #ff0fd3;
+    background-color: #ffff;
 }
 input[type = range]{
-webkit-appearance: none;
-}
-input[type = range]::-webkit-slider-runnable-track{
-    width:500px;
-}
-*/
-input[type=range]{
-    -webkit-appearance: none;
-}
+-webkit-appearance: none;
+background: blue;
+cursor: pointer;
+width: 15rem
 
-input[type=range]::-webkit-slider-runnable-track {
-    width: 100px;
-    height: 100px;
-    background: #ddd;
-    border: none;
-    border-radius: 3px;
 }
