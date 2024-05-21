@@ -14,7 +14,7 @@ input[type=range]{
 }
 
 input[type=range]::-webkit-slider-runnable-track {
-    width: 20px;
+    width: 100px;
     height: 100px;
     background: #ddd;
     border: none;
