@@ -1,4 +1,9 @@
 body{
     background-color: #ff0fd3;
 }
-input[]
+input[type = range]{
+webkit-appearance: none;
+}
+input[type = range]::-webkit-slider-runnable-track{
+    width:500px
+}
