@@ -3,8 +3,11 @@ body{
 }
 input[type = range]{
 -webkit-appearance: none;
-background: blue;
+background: transparent;
 cursor: pointer;
 width: 15rem
-
+}
+input[type = range]::-webkit-slider-runnable-track{
+    background: blue;
+    height: 5rem;
 }
