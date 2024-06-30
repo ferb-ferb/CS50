@@ -37,6 +37,17 @@ code<!DOCTYPE html>
      // document.querySelector('#field1').addEventListener('keyup',function(){
      //   if()
      // });
+       let fadeins = document.querySelectorAll('.fadein');
+       for (int i = 0 ; i<fadeins.length ; i++){
+        fadeins[i].addEventListener('click',function(){
+           fadeins[i].style.backgroundColor = 'red';
+           document.querySelector('#fade').innerHTML = 'Incorrect';
+        })
+       }
+       document.querySelector('#fadeco').addEventListener('click', function(){
+        document.querySelector('fadeco').style.backgroundColor = 'green';
+        document.querySelector('#fade').innerHTML = 'Correct!';
+       });
     });
         </script>
     </head>
@@ -69,9 +80,10 @@ code<!DOCTYPE html>
                 <h2>Part 3: Re-learning</h2>
                 <hr>
                 <h3>How faded am I</h3>
-                <button class = "incorrect" id = "0">0</button>
-                <button class = "incorrect" id = "5">5</button>
-                <button class = "correct" id = "10">10</button>
+                <button class = "fadein" id = "0">0</button>
+                <button class = "fadein" id = "5">5</button>
+                <button class = "fadeco" id = "10">10</button>
+                <p id = "fade"></p>
             </div>
         </div>
     </body>
