@@ -38,7 +38,7 @@ code<!DOCTYPE html>
      //   if()
      // });
        let fadeins = document.querySelectorAll('.fadein');
-       for (int i = 0 ; i<fadeins.length ; i++){
+       for (let i = 0 ; i<fadeins.length ; i++){
         fadeins[i].addEventListener('click',function(){
            fadeins[i].style.backgroundColor = 'red';
            document.querySelector('#fade').innerHTML = 'Incorrect';
